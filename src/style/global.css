@@ -1,0 +1,26 @@
+@import url('../style/primitive.css');
+@import url('../style/reset.css');
+@import url('../style/fonts.css');
+@import url('../style/style.css');
+@import url('../style/navbar.css');
+@import url('../style/main.css');
+@import url('../style/forms.css');
+@import url('../style/jumbo.css');
+@import url('../style/servicos.css');
+@import url('../style/faq.css');
+@import url('../style/footer.css');
+
+
+:root {
+    --background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(193,193,193,1) 100%);
+    --font-primary: 'Inter';
+    --branco: #fff;
+    --navbar-color-hover: #FFCC00;
+    --navbar-color-active: #EDD456;
+    --navbar-text-color: #000000;
+    --main-color-primary: #FBAB7E;
+    --azul-primario: #407293;
+    --azul-claro: #80ADCE;
+    --cinza: #C2CACC;
+    
+}

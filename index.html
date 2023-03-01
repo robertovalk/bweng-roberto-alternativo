@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BW Engenharia</title>
+
+    <!--  IMPORT CSS FILES  -->
+    <link rel="stylesheet" href="src/style/global.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <!--  IMPORT JS FILES   -->
+    <script defer src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js" integrity="sha512-f8mwTB+Bs8a5c46DEm7HQLcJuHMBaH/UFlcgyetMqqkvTcYg4g5VXsYR71b3qC82lZytjNYvBj2pf0VekA9/FQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/Flip.min.js" integrity="sha512-RL2ypMFkOs/iB79bWnNiFrZRCqyExtQ38n/K+t7Xjf09YZcvSzqgSaGVj+fiVYEqVRLf/WjdHmwGImZM3XO5gA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <div class="navbar-right">
+                <img class='logo-bw' src="./src/images/bw-amaresc-azul.svg" alt="">
+                <p>engenharia</p>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobrenos">Sobre Nós</a>
+                    </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#Serv">Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#FAQ">FAQ</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+
+
+    <main>
+        <section class="banner">
+
+            <section class="banner-form container">
+                <div class="container banner-container">
+                    <h1 class="banner-title">Economize em até 95% na sua conta de energia.</h1>
+                    <p class="banner-text">Garantimos sua economia e protegemos o meio ambiente.</p>
+                </div>
+                <form class="forms">
+                    <div class="forms-title">
+                        <h2>Faça um orçamento</h2>
+                    </div>
+                    <input class="input-padrao" type="text" placeholder="Nome">
+                    <input class="input-padrao" type="email" placeholder="Insira seu E-mail">
+                    <input class="input-padrao" type="tel" placeholder="(xx)00000-0000">
+                    <input class="input-padrao" type="text" placeholder="Sua Cidade">
+                    <input class="input-padrao" type="number" placeholder="Valor média da sua fatura de energia">
+                    <input class="input-butao" type="submit" value="Enviar">
+                </form>
+            </section>
+
+            <section>
+                <img class="banner-img" src="./src/images/homem.svg">
+            </section>
+        </section>
+
+        <section>
+            <div class="jumbotron jumbotron-fluid" id="sobrenos">
+                <div class="container">
+                <h1 class="display-4">Fluid jumbotron</h1>
+                <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="servicos" id="Serv">
+            <div class="servicos-left">
+                <h2 class="left-title">Serviços</h2>
+                <p class="left-text">Texto Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat commodi nam delectus. Corrupti reiciendis illo molestias voluptatibus harum expedita voluptas nihil ea! Tenetur aspernatur impedit temporibus! Itaque tempore labore impedit.</p>
+                <a class="left-link">entre em contato</a>
+            </div>
+
+            <div class="servicos-right">
+                <div class="servicos-card">
+                    <img class="logo-bw" src="./src/images/logo-bw-amarelo-sombra.svg">
+
+                    <h3 class="card-title">titulo</h3>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia sequi at saepe earum nobis alias, enim mollitia est nesciunt! Fugiat, hic eum. Officiis dolorem qui eaque inventore delectus atque nulla.</p>
+
+                </div>
+                <div class="servicos-card">
+                    <img class="logo-bw" src="./src/images/logo-bw-amarelo-sombra.svg">
+
+                    <h3 class="card-title">titulo</h3>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia sequi at saepe earum nobis alias, enim mollitia est nesciunt! Fugiat, hic eum. Officiis dolorem qui eaque inventore delectus atque nulla.</p>
+
+                </div>
+                <div class="servicos-card">
+                    <img class="logo-bw" src="./src/images/logo-bw-amarelo-sombra.svg">
+
+                    <h3 class="card-title">titulo</h3>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia sequi at saepe earum nobis alias, enim mollitia est nesciunt! Fugiat, hic eum. Officiis dolorem qui eaque inventore delectus atque nulla.</p>
+
+                </div>
+                <div class="servicos-card">
+                    <img class="logo-bw" src="./src/images/logo-bw-amarelo-sombra.svg">
+
+                    <h3 class="card-title">titulo</h3>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia sequi at saepe earum nobis alias, enim mollitia est nesciunt! Fugiat, hic eum. Officiis dolorem qui eaque inventore delectus atque nulla.</p>
+
+                </div>
+            </div>
+        </section>
+
+        <div class="container-faq" id="FAQ">
+            <section class="secao-faq" id="faq">
+                
+                <h3>FAQ</h3>
+
+                <details>
+                    <summary class="sumario">Como funciona essa consultoria?</summary>
+                    <p class="sumario-p">- O nosso time de marketing vai te mostrar como aumentar o seu faturamento da sua empresa trazendo novos clientes utilizando o marketing de sedução.</p>
+                </details>
+        
+                <details>
+                    <summary class="sumario">Quanto tempo dura a reunião?</summary>
+                    <p class="sumario-p">- No máximo 45 minutos. Esse será o tempo necessário para mostrar a estratégia de marketing de sedução</p>
+                    
+                </details>
+        
+                <details>
+                    <summary class="sumario">Posso fazer de qualquer lugar e qualquer dispositivo?</summary>
+                    <p class="sumario-p">- Sim. A reunião é online, basta ter uma conexão à internet para participar.</p>
+                    
+                </details>
+        
+                <details>
+                    <summary class="sumario">Quando será a reunião?</summary>
+                    <p class="sumario-p">- Você precisa preencher o formulário, enviar os dados, e agendar um horário na agenda virtual que aparecerá na próxima página.</p>
+                    
+                </details>
+
+                <div class="secao-faq-link">
+                    <a class="faq-link" href="#">Faça seu orçamento</a>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+
+        <div class="box-container">
+    
+            <div class="box">
+                <h3>links</h3>
+                <a href="#">home</a>
+                <a href="#">serviços</a>
+                <a href="#">sobre</a>
+                <a href="#">clientes</a>
+                <a href="#">contato</a>
+            </div>
+    
+            <div class="box">
+                <h3>social</h3>
+                <a href="#">facebook</a>
+                <a href="#">instagram</a>
+                <a href="#">pinterest</a>
+                <a href="#">twitter</a>
+            </div>
+    
+            <div class="box">
+                <h3>contato</h3>
+                <div class="info">
+                    <i class="fas fa-phone"></i>
+                    <p> (92)9-9999-9999 <br> (92)3999-9999 </p>
+                </div>
+                <div class="info">
+                    <i class="fas fa-envelope"></i>
+                    <p> example@gmail.com <br> example@gmail.com </p>
+                </div>
+                <div class="info">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p> manaus, amazonas - 69005400 </p>
+                </div>
+            </div>
+    
+        </div>
+    
+        <h1 class="credit"> &copy; Desenvolvido por Oberdan Angelin e Roberto Falcão</h1>
+    
+    </footer>
+    
+
+
+
+    
+
+</body>
+</html>

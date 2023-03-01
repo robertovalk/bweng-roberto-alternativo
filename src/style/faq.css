@@ -1,0 +1,81 @@
+.container-faq {
+    padding: 4em 2em 2em;
+    color: var(--navbar-color-hover);
+    background-color: var(--azul-primario);
+    font-family:'inter';
+    border-top: 3px solid;
+    border-bottom: 3px solid;
+}
+
+.secao-faq {
+    min-height: auto;
+    padding-bottom: 70px;
+}
+
+.sumario {
+    
+    background-color: transparent;
+    position: relative;
+    text-transform: initial;
+    font-size: 1em;
+    cursor: pointer;
+    display: inline-flex;
+    list-style: none;
+    outline: none;
+    transition: .2s linear;
+}
+
+.sumario-p {
+    padding: 10px;
+    text-transform: initial;
+    color: #EDD456;
+    font-size: 1.3rem;
+}
+
+.sumario::after {
+    content: '+';
+    position: absolute;
+    top: 0; 
+    right: -1rem;
+    font-size: 20px;
+    background:  linear-gradient(to right, #EDD456 0%, #f9d423 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    transition: .2s;
+}
+
+[open] .sumario::after{
+    transform: rotate(135deg);
+}
+
+[open] .sumario {
+    background:  linear-gradient(to right, #EDD456 0%, #f9d423 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.secao-faq-link {
+    display: flex;
+    justify-content: center;
+}
+
+.faq-link {
+    color: var(--branco);
+    text-align: center;
+    margin-top: 3em;
+    background-color: #008000;
+    padding: 1em 3em 1em 3em;
+    border-radius: 2em;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 1s ease-in-out;
+}
+
+.faq-link:hover {
+    background-color: var(--branco);
+    color: green;
+}   
